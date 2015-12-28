@@ -61,7 +61,7 @@ public class ItemListFragmnet extends Fragment implements ItemList {
     private void initList() {
         this.mLayoutManager = new LinearLayoutManager(getActivity().getBaseContext());
         this.mItemList.setLayoutManager(mLayoutManager);
-        this.mAdapter = new ItemListAdapter();
+        this.mAdapter = new ItemListAdapter(this.getContext());
         this.mItemList.setAdapter(this.mAdapter);
     }
 

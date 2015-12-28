@@ -3,4 +3,15 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Item List dimensions -->
+    <dimen name="ItemList_card_padding_left">5dp</dimen>
+    <dimen name="ItemList_card_padding_right">5dp</dimen>
+    <dimen name="ItemList_card_padding_top">5dp</dimen>
+    <dimen name="ItemList_card_padding_button">5dp</dimen>
+
+    <!-- Item List attributes -->
+    <dimen name="ItemList_card_element_radius">2dp</dimen>
+    <dimen name="ItemList_card_element_text_size">15sp</dimen>
+    <dimen name="ItemList_card_element_padding">10dp</dimen>
 </resources>
